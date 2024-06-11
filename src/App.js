@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-600 flex flex-col items-center p-4">
-      <h1 className="text-3xl font-bold text-blue-500 mb-4">Gemini API Prompt</h1>
+        
         <ToastContainer />
         <Routes>
           <Route path="/" element={<Login />} />

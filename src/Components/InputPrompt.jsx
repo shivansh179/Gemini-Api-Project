@@ -44,6 +44,8 @@ const PromptInput = ({ setResponse, setLoading }) => {
   };
 
   return (
+    <div>
+       <h1 className="text-3xl font-bold text-blue-500 mb-4">Gemini API Prompt</h1>
     <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
       <div>
         <label htmlFor="prompt" className="block text-gray-700">Enter your prompt:</label>
@@ -59,6 +61,7 @@ const PromptInput = ({ setResponse, setLoading }) => {
         Send
       </button>
     </form>
+    </div>
   );
 };
 
