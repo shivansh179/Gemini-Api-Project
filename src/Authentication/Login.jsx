@@ -32,7 +32,7 @@ const Login = () => {
 
     return (
         <>
-            <main className="flex flex-col items-center justify-center w-screen h-screen bg-amber-600">
+            <main className="flex flex-col items-center justify-center w-screen h-screen bg-gray-600">
                 <ToastContainer />
                 <section className="flex flex-col items-center justify-center bg-white p-6 rounded-lg shadow-lg">
                     <h1 className="text-4xl font-bold mb-6">Welcome to Gemini AI Support</h1>
