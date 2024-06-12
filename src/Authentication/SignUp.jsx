@@ -47,10 +47,10 @@ const Signup = () => {
     };
 
     return (
-        <main className="flex flex-col items-center justify-center w-screen h-screen bg-amber-600">
+        <main className="flex flex-col items-center justify-center w-screen h-screen bg-gray-600">
            <ToastContainer/>
             <section className="flex flex-col items-center justify-center bg-white p-8 rounded-lg shadow-lg">
-                <h1 className="text-4xl font-bold mb-6 text-amber-600">Get Registered with FinTech</h1>
+                <h1 className="text-4xl font-bold mb-6 text-amber-600">Get Registered with Gemini</h1>
                 <h1 className="text-2xl font-bold mb-6 text-amber-600">Enter you details below</h1>
                 <form className="flex flex-col w-80 space-y-4" onSubmit={onSubmit}>
                     <div className="flex flex-col">
