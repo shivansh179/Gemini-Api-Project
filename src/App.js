@@ -25,7 +25,7 @@ function App() {
           <Route path="/phone_login" element={<PhoneNumberVerification />} />
           <Route path="/InputPrompt" element={
             <PrivateRoute>
-              <div className="bg-white shadow-md rounded p-4 w-full max-w-md">
+              <div className="bg-white shadow-md rounded p-4 w-full ">
                 <PromptInput setResponse={setResponse} setLoading={setLoading} />
                 {loading && <div className="text-center mt-4">Loading...</div>}
                 {response && <ResponseDisplay response={response} />}
