@@ -47,7 +47,7 @@ const Login = () => {
                                 required
                                 placeholder="Email address"
                                 onChange={(e) => setEmail(e.target.value)}
-                                className="mt-2 p-2 border border-gray-300 rounded"
+                                className="mt-2 p-2 font-mono font-semibold border border-gray-300 rounded"
                             />
                         </div>
                         <div className="flex flex-col">
@@ -59,12 +59,12 @@ const Login = () => {
                                 required
                                 placeholder="Password"
                                 onChange={(e) => setPassword(e.target.value)}
-                                className="mt-2 p-2 border border-gray-300 rounded"
+                                className="mt-2 p-2 border font-mono font-semibold border-gray-300 rounded"
                             />
                         </div>
                         <button
                             type="submit"
-                            className="mt-4 bg-amber-600 text-white py-2 rounded hover:bg-amber-700 transition"
+                            className="mt-4 bg-teal-700 text-white py-2 rounded hover:bg-amber-700 transition"
                         >
                             Login
                         </button>

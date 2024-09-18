@@ -50,8 +50,8 @@ const Signup = () => {
         <main className="flex flex-col items-center justify-center w-screen h-screen bg-gray-600">
            <ToastContainer/>
             <section className="flex flex-col items-center justify-center bg-white p-8 rounded-lg shadow-lg">
-                <h1 className="text-4xl font-bold mb-6 text-amber-600">Get Registered with Gemini</h1>
-                <h1 className="text-2xl font-bold mb-6 text-amber-600">Enter you details below</h1>
+                <h1 className="text-4xl font-bold mb-6 text-teal-700">Get Registered with Gemini</h1>
+                <h1 className="text-2xl font-bold mb-6 text-teal-700">Enter you details below</h1>
                 <form className="flex flex-col w-80 space-y-4" onSubmit={onSubmit}>
                     <div className="flex flex-col">
                         <label htmlFor="name" className="font-bold text-xl text-gray-700">Name</label>
@@ -62,7 +62,7 @@ const Signup = () => {
                             onChange={(e) => setName(e.target.value)}
                             required
                             placeholder="Enter Name"
-                            className="mt-2 p-3 border border-gray-300 rounded-md focus:ring focus:ring-amber-400 focus:outline-none"
+                            className="mt-2 p-3 border font-mono font-semibold border-gray-300 rounded-md focus:ring focus:ring-amber-400 focus:outline-none"
                         />
                         
                     </div>
@@ -75,7 +75,7 @@ const Signup = () => {
                             onChange={(e) => setEmail(e.target.value)}
                             required
                             placeholder="Email address"
-                            className="mt-2 p-3 border border-gray-300 rounded-md focus:ring focus:ring-amber-400 focus:outline-none"
+                            className="mt-2 p-3 border font-mono font-semibold border-gray-300 rounded-md focus:ring focus:ring-amber-400 focus:outline-none"
                         />
                     </div>
                     <div className="flex flex-col">
@@ -87,7 +87,7 @@ const Signup = () => {
                             onChange={(e) => setPassword(e.target.value)}
                             required
                             placeholder="Password"
-                            className="mt-2 p-3 border border-gray-300 rounded-md focus:ring focus:ring-amber-400 focus:outline-none"
+                            className="mt-2 p-3 border font-mono font-semibold border-gray-300 rounded-md focus:ring focus:ring-amber-400 focus:outline-none"
                         />
                     </div>
                     <div className="flex flex-col">
@@ -99,19 +99,19 @@ const Signup = () => {
                             onChange={(e) => setNumber(e.target.value)}
                             required
                             placeholder="Phone Number"
-                            className="mt-2 p-3 border border-gray-300 rounded-md focus:ring focus:ring-amber-400 focus:outline-none"
+                            className="mt-2 p-3 border font-mono font-semibold border-gray-300 rounded-md focus:ring focus:ring-amber-400 focus:outline-none"
                         />
                     </div>
                     <button
                         type="submit"
-                        className="mt-4 bg-amber-600 text-white py-3 rounded-md hover:bg-amber-700 transition"
+                        className="mt-4 bg-teal-700  text-white py-3 rounded-md hover:bg-amber-700 transition"
                     >
                         Sign up
                     </button>
                 </form>
                 <p className="text-sm text-gray-700 mt-4">
                     Already have an account?{' '}
-                    <NavLink to="/" className="text-amber-600 hover:underline">
+                    <NavLink to="/" className="text-teal-700 hover:underline">
                         Sign in
                     </NavLink>
                 </p>
